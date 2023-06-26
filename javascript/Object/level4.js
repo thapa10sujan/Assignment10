@@ -6,9 +6,8 @@ const obj = {
     math: 42,
     sci: 50
   }
-  
+
   const totalScore = obj.comp+obj.math+obj.sci;
-  const percentage = (totalScore/150)*100;
-  
-  console.log (percentage)
-  
+  const percentage = ((totalScore/150*100).toFixed(2))
+   console.log (percentage)
+
